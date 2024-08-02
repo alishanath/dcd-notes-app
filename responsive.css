@@ -1,0 +1,19 @@
+@media only screen and (max-width: 768px) {
+    .container {
+        grid-template-areas:
+            "sidebar"
+            "main"
+            "footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+
+    aside {
+        border-right: none;
+        border-bottom: 1px solid #ccc;
+    }
+
+    main {
+        padding-top: 10px;
+    }
+}
